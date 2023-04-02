@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+form,
+.header {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	padding: 1rem 1rem 0;
+}
+
+form {
+	padding: 1rem;
+}
+
+h1,
+h2 {
+	font-weight: 400;
+}
+
+h1 {
+	font-style: 24px;
+	line-height: 27.6px;
+}
+
+h1 {
+	font-style: 32px;
+	line-height: 36.8px;
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+}
+
+/* input[type="text"],
+input[type="email"] {
+	width: 159px;
+} */
+
+#Nasionality {
+	width: 71px;
+}
+
+#submit-create-acount {
+	width: 3rem;
+}

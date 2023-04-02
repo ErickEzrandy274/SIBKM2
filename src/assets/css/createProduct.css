@@ -1,0 +1,147 @@
+:root {
+	--bs-blue: #0d6efd;
+	--white-100: #f3f5fa;
+	--light-blue: #47b2e4;
+	--dark-blue: #37517e;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: white !important;
+}
+
+.navbar-brand {
+	font-weight: 500 !important;
+	font-size: 24px !important;
+	color: black !important;
+	margin: 0 !important;
+}
+
+.navbar {
+	background-color: white !important;
+}
+
+.navbar-nav > a {
+	font-size: 16px !important;
+}
+
+.not-active {
+	color: var(--bs-blue) !important;
+}
+
+.active {
+	background: var(--bs-blue) !important;
+	color: white !important;
+	padding: 12px 16px !important;
+	border-radius: 4px !important;
+}
+
+#createProduct {
+	padding: 2rem 0;
+	width: 40%;
+}
+
+#title {
+	font-size: 31px;
+	font-weight: 500;
+}
+
+#subtitle {
+	font-size: 20px;
+	color: #212529;
+}
+
+form {
+	font-size: 16px;
+}
+
+#title-form {
+	font-size: 23px;
+	font-weight: 500;
+	padding-top: 1.5rem;
+}
+
+input,
+textarea,
+select {
+	padding: 0.5rem 1rem;
+	border-radius: 4px;
+	border: 1px solid #ced4da;
+	color: black;
+	background-color: white;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+	outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	/* display: none; <- Crashes Chrome on hover */
+	-webkit-appearance: none;
+	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="radio"] {
+	width: 20px;
+	height: 20px;
+	accent-color: var(--bs-blue);
+}
+
+#text-prodFresh {
+	margin: 0;
+}
+
+::-webkit-file-upload-button {
+	background-color: var(--bs-blue) !important;
+	color: white !important;
+}
+
+input[type="file"] {
+	color: var(--bs-blue) !important;
+	border: 1px solid var(--bs-blue) !important;
+	width: 75%;
+}
+
+input {
+	background-color: white !important;
+}
+
+#submit-product-form {
+	width: 576px;
+}
+
+#list-product {
+	padding: 2rem 0 3rem;
+}
+
+.radio-label,
+input[type="radio"] {
+	cursor: pointer;
+}
+
+#search:hover {
+	background-color: white;
+	color: var(--bs-blue);
+}
+
+@media screen and (max-width: 992px) {
+	main {
+		width: 90%;
+	}
+
+	input[type="file"] {
+		width: 90%;
+	}
+
+	#submit-product-form {
+		width: 100%;
+	}
+}
